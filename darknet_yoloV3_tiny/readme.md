@@ -34,3 +34,5 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -static-openmp")
 ```
 
 ##结果展示
+
+![官网图片](https://github.com/zlszhonglongshen/YOLO_NCNN_Android_demo/blob/master/darknet_yoloV3_tiny/results/demo.jpg)
