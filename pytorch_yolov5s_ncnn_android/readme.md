@@ -61,5 +61,5 @@ pip install -U onnx-simplifier --user
 
 * [YOLOV5_NCNN_Android](https://github.com/sunnyden/YOLOV5_NCNN_Android)
 
-## 效果图
+## 效果图，标签没有改，暂时先这样子
 ![demo](https://github.com/zlszhonglongshen/YOLO_NCNN_Android_demo/blob/master/pytorch_yolov5s_ncnn_android/yolo5s.png)
