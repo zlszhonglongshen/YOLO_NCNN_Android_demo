@@ -2,7 +2,7 @@
 ## 主要收集关于目标检测算法在移动端框架ncnn的部署
 ### 目前支持的算法
 * 1、**darknet-yoloV3-tiny**
-* 2、**pytorch-yoloV5s-tiny**
+* 2、**pytorch-yoloV5s**
 * 
 * 
 
