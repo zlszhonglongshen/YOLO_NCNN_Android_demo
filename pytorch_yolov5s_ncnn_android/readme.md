@@ -9,7 +9,7 @@
 
 ### ncnn在win10下配置
 [Windows下ncnn环境配置（VS2019）](https://blog.csdn.net/qq_36890370/article/details/104966786)，出现以下界面就代表安装成功了。
-![成功界面]()
+![成功界面](https://github.com/zlszhonglongshen/YOLO_NCNN_Android_demo/blob/master/pytorch_yolov5s_ncnn_android/ncnn%E9%85%8D%E7%BD%AE.png)
 
 ### pytorch框架下模型训练
 略，网上资料比较多，自行白嫖。
@@ -25,6 +25,8 @@
 
 【2】预测框不对是因为YoloV5.h文件中，预测层没有根据自己模型指定对，原来的是“394，“375，“output”这3层输出，可以根据Netron查看自己模型的3个预测层修改，我的是“output”，“423”，“442”，然后预测框正确。
 ```
+![结果](https://github.com/zlszhonglongshen/YOLO_NCNN_Android_demo/blob/master/pytorch_yolov5s_ncnn_android/ncnn%E8%BD%AC%E6%8D%A2%E6%88%90%E5%8A%9F%E5%9B%BE.png)
+
 2：修改完以后开始模型转换：
 ```
 cd yolov5
@@ -60,4 +62,4 @@ pip install -U onnx-simplifier --user
 * [YOLOV5_NCNN_Android](https://github.com/sunnyden/YOLOV5_NCNN_Android)
 
 ## 效果图
-![demo]()
+![demo](https://github.com/zlszhonglongshen/YOLO_NCNN_Android_demo/blob/master/pytorch_yolov5s_ncnn_android/yolo5s.png)
