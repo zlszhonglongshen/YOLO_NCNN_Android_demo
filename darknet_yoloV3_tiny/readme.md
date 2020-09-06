@@ -30,6 +30,7 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp -static-openmp")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -static-openmp")
 
 2：替换掉自己在上一步中转换的模型
+**bin、param、label.txt文件放在CPP的assets文件夹下**，一定是三个文件！！！
 ```
 
 ##结果展示
