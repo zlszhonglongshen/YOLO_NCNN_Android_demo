@@ -26,4 +26,4 @@
 ## darknet_yolov3_tiny
 该目录下主要记载了，在darknet框架下训练的yoloV3-tiny模型，如何转换为ncnn以及在Android下如何部署
 
-##pytorch_yolov5s_ncnn_android
+## pytorch_yolov5s_ncnn_android
